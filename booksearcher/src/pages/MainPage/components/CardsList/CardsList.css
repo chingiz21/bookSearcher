@@ -1,0 +1,13 @@
+.wrapper__cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.cards-count {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+}

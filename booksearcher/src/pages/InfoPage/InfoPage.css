@@ -1,0 +1,20 @@
+/* .wrapper__card {
+    display: flex;
+}
+
+.bookPict {
+    width: 500px;
+    height: 600px;
+}
+
+.card__descr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    cursor: auto;
+}
+
+.card__descr > * {
+    margin-bottom: 20px;
+} */

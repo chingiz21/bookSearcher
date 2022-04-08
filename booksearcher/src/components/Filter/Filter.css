@@ -1,0 +1,21 @@
+.filters__container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.filter__form_w {
+    padding: 0 20px;
+}
+
+.form__label {
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.form__select {
+    padding: 5px;
+    min-width: 40px;
+    outline: none;
+}

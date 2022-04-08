@@ -1,0 +1,45 @@
+.wrapper__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../imgs/bookPageBackg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 1920px; */
+    /* height: 800px; */
+    object-fit: contain;
+}
+
+.header__content {
+    margin: 127px 0 320px;
+    color: #fff;
+    text-align: center;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.header__input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header__input > input {
+    width: 655px;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+}
+
+.header__filters {
+    /* color: #fff; */
+    /* background-color: #fff; */
+}
+
+.filter__label {
+    background-color: #fff;
+}
