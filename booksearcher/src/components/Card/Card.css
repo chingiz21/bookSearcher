@@ -1,0 +1,48 @@
+/*main page card*/
+
+.wrapper__card {
+    margin: 10px;
+    background-color: #f1f0f0;
+    padding: 10px;
+    border-radius: 13px;
+    cursor: pointer;
+    width: 250px;
+    max-height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__descr {
+    overflow: hidden;
+}
+
+.bookPict {
+    width: 100%;
+    height: 300px;
+}
+
+.card__descr_category {
+    font-weight: 300;
+    font-size: 13px;
+    font-style: italic;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.card__descr_title {
+    font-weight: 700;
+    font-size: 20px;
+    flex-grow: 1;
+    min-height: 70px;
+}
+
+.card__descr_author {
+    font-size: 15px;
+    font-style: italic;
+    /* text-decoration: underline; */
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 1px solid #000;
+}

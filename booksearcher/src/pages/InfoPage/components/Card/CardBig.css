@@ -1,0 +1,55 @@
+/*info page card*/
+
+.wrapper__card_b {
+    display: flex;
+    margin-top: 20px;
+}
+
+.bookPict_b {
+    width: 500px;
+    height: 600px;
+    border: 1px solid #f2f2f2;
+}
+
+.card__descr_b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    cursor: auto;
+    margin-right: 10px;
+}
+
+.card__descr_category_b {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.card__descr_title_b {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card__descr_author_b {
+    font-style: italic;
+}
+
+.card__descr_b > * {
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 1px solid #000;
+    width: 100%;
+}
+
+.google-play {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.google-play_img {
+    /* width: 100%;
+    height: 100%; */
+}
